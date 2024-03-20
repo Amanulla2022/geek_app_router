@@ -1,6 +1,7 @@
 # Geek Router App
 
   This is a React application featuring various components for different functionalities, including home, quotes, restaurants, contact, and food-related features. It features various components for exploring recipes, discovering new restaurants, reading inspiring quotes, and contacting the team behind the app. The application utilizes React Router for seamless navigation between different sections.
+  Gourmet Explorer is a React application designed to provide users with a rich culinary experience. It features various components for exploring recipes, discovering new restaurants, reading inspiring quotes, and contacting the team behind the app. The application utilizes React Router for seamless navigation between different sections.
 
 # [Hosted Link](https://geek-router-app.vercel.app/)
 
