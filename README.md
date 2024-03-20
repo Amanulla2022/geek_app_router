@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Geek Router App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  This is a React application featuring various components for different functionalities, including home, quotes, restaurants, contact, and food-related features. It features various components for exploring recipes, discovering new restaurants, reading inspiring quotes, and contacting the team behind the app. The application utilizes React Router for seamless navigation between different sections.
 
-## Available Scripts
+# [Hosted Link](https://geek-router-app.vercel.app/)
 
-In the project directory, you can run:
+## Routes
+   - /: Home Component
+   - /quotes: Quote Component
+   - /restaurants: Restaurants Component
+   - /contact: Contact Component
+   - /food: Food Component
+   - /food:id:Detailed Food Component
 
-### `npm start`
+## Home Component
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  - The Home component represents the homepage of a web application.
+  - This React component displays various sections including a hero section, a summary section, and testimonials.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Qoute Component
 
-### `npm test`
+  - The Qoutes component displays a list of quotes fetched from a JSON file (Qoutes.json). Each quote is displayed along with its author, and there's an option to share the quote on Twitter.
+  - This React component renders a list of quotes fetched from the Qoutes.json file. Each quote is displayed in a styled card, showing the quote text and the author's name. Additionally, there's a Twitter share     button associated with each quote that allows users to share the quote on Twitter.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Restaruants Component
 
-### `npm run build`
+  - The Restaruant component is a React component that displays a list of restaurants based on provided data. Users can search for restaurants by name and filter them based on their ratings.
+  - This component renders a list of restaurants fetched from the provided data file (Data.js). Users can search for restaurants by entering a search query in the input field. Additionally, users can filter restaurants based on their minimum rating by adjusting the rating input field. Each restaurant is displayed with its name, rating, address, type of food, and a link to visit the menu.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contact Component
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  - The Contact component is a React component that provides a form for users to submit their contact details and a message.
+  - This component allows users to fill out a form with their name, email, phone number, and a message. Upon submission, the form data is logged to the console. Additionally, the component displays contact details such as the location, phone number, and email address.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Food Component
 
-### `npm run eject`
+  - The Food component is a React component that provides food and detailed ingridient and youtube video etc
+  - This help users search for, view, and explore various recipes. Users can search for recipes by entering keywords in the search bar, and the app will display a list of matching recipes. Additionally, users can view detailed information about each recipe, including ingredients, instructions, and related links such as recipe sources and instructional videos.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Router
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  - The application utilizes React Router for navigation between different components.
+    # Dependency
+      - React Router DOM: For routing within the application.
